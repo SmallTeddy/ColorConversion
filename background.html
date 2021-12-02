@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>ColorConversion</title>
+	<meta charset="utf-8" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" href="./background.css">
+</head>
+
+<body class="body">
+	<table>
+		<tbody>
+			<tr>
+				<td>
+					<div class="title">RGB颜色值转换成十六进制颜色码</div>
+					<table>
+						<tbody>
+							<tr>
+								<td class="color1">
+									<input class="color1_input" value="24, 0, 255" />
+									<button class="color1_conversion">转换</button>
+								</td>
+								<td id="color1" class="show_color1" bgcolor="#1800FF"></td>
+								<td id="res1" class="res_color1">#1800FF</td>
+							</tr>
+						</tbody>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div class="title">十六进制颜色码转换成RGB颜色值</div>
+					<table>
+						<tbody>
+							<tr>
+								<td class="color2">
+									<input class="color2_input" value="#CC00FF" />
+									<button class="color2_conversion">转换</button>
+								</td>
+								<td id="color2" class="show_color2" bgcolor="#CC00FF"></td>
+								<td id="res2" class="res_color2">204, 0, 255</td>
+							</tr>
+						</tbody>
+					</table>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/background.js"></script>
+</body>
+
+</html>

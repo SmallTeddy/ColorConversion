@@ -1,0 +1,26 @@
+{
+	"manifest_version": 2,
+	"name": "ColorConversion",
+	"version": "1.0.0",
+	"description": "颜色转换工具",
+	"author": "SmallTeddy",
+	"icons": {
+		"48": "icon.png",
+		"128": "icon.png"
+	},
+	"background":
+	{
+		"page": "background.html"
+	},
+	"browser_action": {
+		"default_icon": "icon.png",
+		"default_title": "ColorConversion",
+		"default_popup": "background.html"
+	},
+	"permissions": [
+		"tabs",
+		"http://localhost/",
+		"http://*/*",
+		"https://*/*"
+	]
+}

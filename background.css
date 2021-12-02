@@ -1,0 +1,50 @@
+.body {
+  width: 600px;
+}
+
+.title {
+  font-size: 18px;
+}
+
+.color1,
+.color2,
+.color1_conversion,
+.color2_conversion {
+  height: 34px;
+}
+
+.color1_input,
+.color2_input,
+.color1_conversion,
+.color2_conversion,
+.res_color1,
+.res_color2 {
+  font-size: 24px;
+}
+
+.color1,
+.color2 {
+  width: 300px;
+}
+
+.color1_input,
+.color2_input {
+  width: 200px;
+  float: left;
+}
+
+.color1_conversion,
+.color2_conversion {
+  float: left;
+  margin-left: 15px;
+}
+
+.show_color1,
+.show_color2 {
+  width: 100px;
+}
+
+.res_color1,
+.res_color2 {
+  padding-left: 15px;
+}
