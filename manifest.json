@@ -17,6 +17,14 @@
 		"default_title": "ColorConversion",
 		"default_popup": "background.html"
 	},
+	"content_scripts":
+	[
+		{
+			"matches": ["<all_urls>"],
+			"js": ["background.js"],
+			"css": ["background.css"]
+		}
+	],
 	"permissions": [
 		"tabs",
 		"http://localhost/",
